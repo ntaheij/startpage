@@ -84,7 +84,7 @@ const CONFIG = {
 		{
 			id: '6',
 			name: 'Één HU',
-			icon: 'youtube',
+			icon: 'vote',
 			link: 'https://een.hu.nl/',
 		},
 	],
@@ -139,12 +139,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Classic',
-					link: 'https://open.spotify.com/playlist/4hqSUVlEdCfB4lApkNm1vU?si=46594f9a8acb44ce',
+					name: 'Inspirational',
+					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: 'Jams',
-					link: 'https://open.spotify.com/playlist/6owErtmLrwVdJUgP0KZgUi?si=0b1f896b54d54ce8',
+					name: 'Classic',
+					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+				},
+				{
+					name: 'Oldies',
+					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+				},
+				{
+					name: 'Rock',
+					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 			],
 		},
@@ -214,7 +222,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Repos',
-					link: 'https://github.com/ntaheij',
+					link: 'https://github.com/migueravila',
 				},
 			],
 		},
