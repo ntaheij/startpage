@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Noah',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: '364e7003357bbe9128b9bb965e78d5ff', // Write here your API Key
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '51.9272',
+	defaultLongitude: '4.8098',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -53,7 +53,7 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
+			name: 'GitHub',
 			icon: 'github',
 			link: 'https://github.com/',
 		},
@@ -61,70 +61,31 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://outlook.office.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Scorion',
+			icon: 'scroll',
+			link: 'https://apps.parantion.nl/scorionx/#/login/portal?name=huict',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Proxmox',
+			icon: 'wrench',
+			link: 'https://192.168.1.233:8006/',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'LEF',
+			icon: 'research',
+			link: 'https://competenties.open-ict.hu.nl/',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Één HU',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
-		},
-	],
-
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			link: 'https://een.hu.nl/',
 		},
 	],
 
@@ -139,20 +100,12 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
 					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					link: 'https://open.spotify.com/playlist/4hqSUVlEdCfB4lApkNm1vU?si=46594f9a8acb44ce',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Jams',
+					link: 'https://open.spotify.com/playlist/6owErtmLrwVdJUgP0KZgUi?si=0b1f896b54d54ce8',
 				},
 			],
 		},
@@ -222,7 +175,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					link: 'https://github.com/ntaheij',
 				},
 			],
 		},
